@@ -1,0 +1,45 @@
+.accordion-style {
+    margin: 3rem auto;
+}
+.accordion-style details {
+    margin-bottom: 1px;
+}
+.accordion-style summary {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: .75rem;
+    background-color: var(--primary-color, #575757);
+    color: #fff;
+}
+
+.accordion-style summary::-webkit-details-marker {
+    display: none;
+    /* hide default marker on safari */
+}
+.accordion-style details summary::before,.accordion-style details summary::after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    display: block;
+}
+
+.accordion-style details summary::before {
+    right: 3rem;
+    width: 10px;
+    height: 2px;
+}
+
+.accordion-style details summary::after {
+    height: 10px;
+    width: 2px;
+    right: calc(3rem + 4px);
+}
+
+.accordion-style details[open] summary::after {
+    display: none;
+}
+
+.accordion-style__content {
+    padding: 1.5rem 2rem;
+}
