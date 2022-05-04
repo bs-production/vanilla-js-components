@@ -55,12 +55,8 @@
   outline: none;
 }
 .ootb-tabcordion--tabs .tab.is-active {
-  background: #00aeef;
+  background: #005EB8;
 }
-.ootb-tabcordion--tabs .tab.is-active:hover, .ootb-tabcordion--tabs .tab.is-active:focus {
-  background: #1c9fff;
-}
-
 .ootb-tabcordion--entry {
   overflow: hidden;
 }
@@ -88,7 +84,7 @@
   transition: margin 400ms ease-out -100ms;
 }
 .ootb-tabcordion--entry.is-active::before {
-  background: #00aeef;
+  background: #005EB8;
 }
 .ootb-tabcordion--entry.is-active:hover::before, .ootb-tabcordion--entry.is-active:focus::before {
   background: #1c9fff;
@@ -107,12 +103,9 @@
   transition: margin 500ms ease-in;
   padding: 1rem;
 }
-.ootb-tabcordion--entry-content img {
-  width: 100%;
-}
 .ootb-tabcordion--entry-content a.more {
   color: #373737;
 }
 .ootb-tabcordion--entry-content a.more:hover {
-  color: #00aeef;
+  color: #005EB8;
 }
