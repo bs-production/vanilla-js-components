@@ -86,9 +86,6 @@
 .ootb-tabcordion--entry.is-active::before {
   background: #005EB8;
 }
-.ootb-tabcordion--entry.is-active:hover::before, .ootb-tabcordion--entry.is-active:focus::before {
-  background: #1c9fff;
-}
 
 .ootb-tabcordion--entry-container {
   overflow: hidden;
